@@ -1,0 +1,40 @@
+table {
+    width: 48%;
+    table-layout: fixed;
+    border-collapse: collapse;
+    border-top-style: solid;
+    border-top-width: 2px;
+    border-top-color: rgb(225, 225, 238);
+}
+
+tbody, tfoot {background-color: rgb(240, 236, 232);}
+
+th, td {
+    
+    border: 1px;
+    padding: 6px;
+    text-align: center;
+}
+
+.Period {
+    background-color: #dcdcdc;
+    border-top: solid #ae00ff;
+}
+    
+.Android {
+    background-color: rgb(222, 233, 191);
+    border-top: solid #8bb07f;
+} 
+    
+.iOS {
+    background-color: #add8e6;
+    border-top: solid #097aec;
+}
+.Windows_Phone {
+    background-color: rgb(223, 198, 243);
+    border-top: solid #c416ca;
+}
+.Others {
+    background-color: #ffdab9;
+    border-top: solid rgb(255, 153, 0);
+}
